@@ -1,0 +1,22 @@
+/*Folha de estilo responsável por manter a renderização adequada 
+ *em diferentes tipos de tela*/
+
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 250px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .descricao{
+        width: 50%;
+    }
+    
+}
+
